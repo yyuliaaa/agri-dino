@@ -5,3 +5,6 @@
 `python train.py`
 ## 测试
 `python demo/test_ap_on_coco_stamenplus.py --config_file groundingdino/config/GroundingDINO_SwinT_OGC.py --checkpoint_path weights/训练后的权重 --device cuda --anno_path ./stamen_dataset0/test_coco_stamen.json --image_dir E:\Gong\new\Grounding-Dino-FineTuning-main0\stamen_dataset0\images\stamen_test --num_workers 0 --num_select 100`
+## 精度
+工业大麻雄蕊数据在原groundingdino项目训练后结果为AP=0.107
+而经过创新点改后测试发现AP=0.264，有明显改进和巨大潜力
