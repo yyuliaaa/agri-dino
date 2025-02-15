@@ -1,4 +1,4 @@
-# agri-dino
+# agri-dino（求star星星版）
 项目代码见master，数据使用的是工业大麻雄蕊图片，标注文件已放在stamen_dataset文件夹，在stamen_dataset内新建**images**文件夹，内部放置自己的数据集（train、val、test），下载*groundingdino官网*的初始权重groundingdino_swint_ogc.pth并放在**weights**文件夹，然后就可以开始训练了。
 ## 训练获取自己数据集的权重
 在**train.py**文件中修改数据集和标注的路径，以及修改保存可视化和权重的路径和初始权重的路径，同时根据需要修改**batch size、num epochs**等
